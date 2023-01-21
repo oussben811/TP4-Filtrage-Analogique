@@ -86,6 +86,8 @@
  ### Partie 2 : Dé-bruitage d'un signal sonore
  
  1- Proposer une méthode pour supprimer ce bruit sur le signal.
+ 2- Mettez-la en oeuvre. Quelle influence à le paramètre K du filtre que vous avez 
+  utilisé ?
  
   ![1](https://user-images.githubusercontent.com/78149349/213878813-cf277651-7801-4ec8-b296-c79dc44b9eed.png)
   ![2](https://user-images.githubusercontent.com/78149349/213878812-9749c3f6-0a3f-4e8b-828a-5208c4372492.png)
@@ -101,8 +103,7 @@
         temporel en utilisant la transformée de Fourier inverse.
   
   
- 2- Mettez-la en oeuvre. Quelle influence à le paramètre K du filtre que vous avez 
-utilisé ?
+ 
 
  3- Quelles remarques pouvez-vous faire notamment sur la sonorité du signal final.
 
