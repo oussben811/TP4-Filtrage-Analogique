@@ -81,3 +81,17 @@
           dans un sous-graphique avec un titre approprié. Le tracage de ces représentations fréquentielles
           permet de visualiser l'effet des différents filtres sur les fréquences du signal d'origine et 
           de comparer les résultats obtenus pour chaque fréquence de coupure.
+          
+ 
+ ### Partie 2 : Dé-bruitage d'un signal sonore
+ 
+ 
+  ![1](https://user-images.githubusercontent.com/78149349/213878813-cf277651-7801-4ec8-b296-c79dc44b9eed.png)
+  ![2](https://user-images.githubusercontent.com/78149349/213878812-9749c3f6-0a3f-4e8b-828a-5208c4372492.png)
+  
+  
+  ![Screenshot 2023-01-21 181314](https://user-images.githubusercontent.com/78149349/213878824-ada9d6cf-ceee-49a4-bec6-da55b0368b95.png)
+  ![4](https://user-images.githubusercontent.com/78149349/213878815-1952645c-467e-4c2f-81f0-6d5e4f06e96a.png)
+
+
+
