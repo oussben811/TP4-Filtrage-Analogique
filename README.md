@@ -85,13 +85,37 @@
  
  ### Partie 2 : Dé-bruitage d'un signal sonore
  
+ 1- Proposer une méthode pour supprimer ce bruit sur le signal.
  
   ![1](https://user-images.githubusercontent.com/78149349/213878813-cf277651-7801-4ec8-b296-c79dc44b9eed.png)
   ![2](https://user-images.githubusercontent.com/78149349/213878812-9749c3f6-0a3f-4e8b-828a-5208c4372492.png)
   
+  - Remarque
   
+        Ce code utilise la méthode de la transformée de Fourier pour appliquer un filtre passe-bas à un signal audio.
+        Le signal audio est d'abord lu et la longueur du signal est déterminée. Le code trace ensuite le signal dans 
+        le domaine fréquentiel en utilisant une transformée de Fourier, trace le filtre passe-bas qui est appliqué 
+        au signal avec une fréquence de coupure de 4500 et un ordre de filtre de 1, puis finalement trace le signal 
+        filtré dans le domaine fréquentiel en utilisant une transformée de Fourier inverse. Le signal filtré est 
+        le signal d'origine multiplié par le filtre dans le domaine fréquentiel et convertit ensuite en domaine
+        temporel en utilisant la transformée de Fourier inverse.
+  
+  
+ 2- Mettez-la en oeuvre. Quelle influence à le paramètre K du filtre que vous avez 
+utilisé ?
+
+ 3- Quelles remarques pouvez-vous faire notamment sur la sonorité du signal final.
+
+
+  
+
+
+4- Améliorer la qualité de filtrage en augmentant l’ordre du filtre. 
+
   ![Screenshot 2023-01-21 181314](https://user-images.githubusercontent.com/78149349/213878824-ada9d6cf-ceee-49a4-bec6-da55b0368b95.png)
   ![4](https://user-images.githubusercontent.com/78149349/213878815-1952645c-467e-4c2f-81f0-6d5e4f06e96a.png)
-
-
-
+  
+  - Remarque
+  
+         Il définit  un filtre passe-bas avec une fréquence de coupure (fc) de
+         4500 Hz et une ordre (n) de 100
