@@ -46,15 +46,38 @@
   ![3](https://user-images.githubusercontent.com/78149349/213871360-14a35d41-c0d8-4055-b123-83200e177421.png)
   ![4](https://user-images.githubusercontent.com/78149349/213871362-04ff1d6c-d22f-429f-97dd-b07accf71146.png)
   
-
+   - Remarque
+   
+          Ce code applique différents filtres à un signal "y" en utilisant les réponses fréquentielles
+          "Hf", "H1", "H2" et "H3" avec des fréquences de coupure de 500, 10, 100 et 1500 Hz respectivement. 
+          Les signaux filtrés sont ensuite transformés du domaine fréquentiel au domaine temporel en utilisant
+          la transformée de Fourier inverse, et les signaux résultants sont tracés dans des sous-graphiques 
+          avec des titres différents.
+          
    b- Tracage de la difference entre le signal initial et signal temporel filtré
 
   ![5](https://user-images.githubusercontent.com/78149349/213871364-b2e59fcf-abb6-4e13-889c-08805f5989f6.png)
   ![6](https://user-images.githubusercontent.com/78149349/213871365-9e258a84-9909-4cd3-b886-dc8467ebca76.png)
   
+   - Remarque
+   
+           Ce code trace les différences entre le signal "xt" et les signaux temporels filtrés avec 
+           les fréquences de coupure de 500, 10, 100, et 1500 Hz respectivement. Pour chaque fréquence
+           de coupure, la différence est calculée en soustrayant le signal filtré à "xt" et le résultat
+           est tracé dans un sous-graphique avec un titre approprié. Le tracage de ces différences permet
+           de visualiser l'effet des différents filtres sur le signal d'origine "xt" et de comparer les 
+           résultats obtenus pour chaque fréquence de coupure.
 
    c- Tracage du signal filtré dans le domaine frequentiel
    
   ![7](https://user-images.githubusercontent.com/78149349/213871367-5458732c-1c25-477e-b3ce-33cb2b69cc72.png)
   ![8](https://user-images.githubusercontent.com/78149349/213871369-259b8ab1-6a2b-440b-9667-7987310b9e89.png)
 
+  - Remarque 
+
+          Ce code trace la représentation du domaine fréquentiel des signaux filtrés obtenus avec 
+          des fréquences de coupure de 500, 10, 100 et 1500 Hz respectivement. Pour chaque filtre,
+          la transformée de Fourier du signal filtré est calculée et sa partie réelle est tracée 
+          dans un sous-graphique avec un titre approprié. Le tracage de ces représentations fréquentielles
+          permet de visualiser l'effet des différents filtres sur les fréquences du signal d'origine et 
+          de comparer les résultats obtenus pour chaque fréquence de coupure.
