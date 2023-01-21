@@ -120,3 +120,12 @@
   
          Il définit  un filtre passe-bas avec une fréquence de coupure (fc) de
          4500 Hz et une ordre (n) de 100
+
+
+## Conclusion
+
+      Le filtrage analogique consiste à utiliser des circuits électroniques pour modifier les caractéristiques
+      d'un signal analogique en réduisant ou en accentuant certaines fréquences spécifiques. Il existe différents
+      types de filtres analogiques, tels que les filtres passe-bas, passe-haut, passe-bande et coupe-bande, 
+      chacun ayant des applications spécifiques. Les filtres analogiques sont encore largement utilisés dans
+      les systèmes électroniques, en particulier dans les applications audio et de communication.
