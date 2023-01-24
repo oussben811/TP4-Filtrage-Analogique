@@ -1,11 +1,22 @@
 # TP4-Filtrage-Analogique
 
+## Introduction
+
+      Le filtrage analogique est une technique très utile dans de nombreuses applications 
+      nécessitant une sélection de fréquences spécifiques dans un signal analogique. 
+      Les différentes catégories de filtres, comme les filtres passe-bas, passe-haut,
+      passe-bande et coupure de bande, permettent de sélectionner des plages de fréquences
+      spécifiques en fonction des besoins de l'application. Les composants électroniques 
+      tels que les résistances, les condensateurs et les inducteurs sont utilisés pour construire 
+      ces filtres.Cette technique est particulièrement utile pour la suppression des bruits de fond,
+      la séparation de signaux et le traitement audio et vidéo. Cependant, il faut noter que 
+      le filtrage analogique peut causer des distorsions et des pertes de signal, il est donc 
+      important de bien concevoir et de tester les filtres pour minimiser ces effets.
+
+
 ## Objectifs
   - Appliquer un filtre réel pour supprimer les composantes indésirables d’un signal. 
   -  Améliorer la qualité de filtrage en augmentant l’ordre du filtre.
-
-## Introduction
-
 ## Réalisation du TP
 
 ### Partie 1 : Filtrage et diagramme de Bode
@@ -86,6 +97,11 @@
  ### Partie 2 : Dé-bruitage d'un signal sonore
  
  1- Proposer une méthode pour supprimer ce bruit sur le signal.
+ 
+    Une méthode couramment utilisée pour supprimer les bruits haute fréquence sur un signal
+    est l'utilisation d'un filtre passe-bas. Ce filtre permet de laisser passer les fréquences
+    basses du signal, tout en atténuant les fréquences hautes considérées comme du bruit.
+    
  2- Mettez-la en oeuvre. Quelle influence à le paramètre K du filtre que vous avez 
   utilisé ?
  
@@ -94,20 +110,25 @@
   
   - Remarque
   
-        Ce code utilise la méthode de la transformée de Fourier pour appliquer un filtre passe-bas à un signal audio.
-        Le signal audio est d'abord lu et la longueur du signal est déterminée. Le code trace ensuite le signal dans 
-        le domaine fréquentiel en utilisant une transformée de Fourier, trace le filtre passe-bas qui est appliqué 
-        au signal avec une fréquence de coupure de 4500 et un ordre de filtre de 1, puis finalement trace le signal 
-        filtré dans le domaine fréquentiel en utilisant une transformée de Fourier inverse. Le signal filtré est 
-        le signal d'origine multiplié par le filtre dans le domaine fréquentiel et convertit ensuite en domaine
+        Ce code utilise la méthode de la transformée de Fourier pour appliquer un filtre passe-bas
+        à un signal audio.Le signal audio est d'abord lu et la longueur du signal est déterminée.
+        Le code trace ensuite le signal dans le domaine fréquentiel en utilisant une transformée 
+        de Fourier, trace le filtre passe-bas qui est appliqué au signal avec une fréquence de coupure
+        de 4500 et un ordre de filtre de 1, puis finalement trace le signal  filtré dans le domaine 
+        fréquentiel en utilisant une transformée de Fourier inverse. Le signal filtré est le signal 
+        d'origine multiplié par le filtre dans le domaine fréquentiel et convertit ensuite en domaine
         temporel en utilisant la transformée de Fourier inverse.
-  
+
   
  
 
  3- Quelles remarques pouvez-vous faire notamment sur la sonorité du signal final.
-
-
+    
+    la sonorité du signal final dépendra de la fréquence de coupure choisie pour le filtre. 
+    Si la fréquence de coupure est trop élevée, certaines fréquences importantes pour la musique
+    pourraient être supprimées, altérant ainsi la qualité sonore. Il est donc important de choisir 
+    une fréquence de coupure qui ne supprime pas les fréquences importantes pour la musique pour
+    maintenir la qualité sonore désirée.
   
 
 
@@ -120,6 +141,9 @@
   
          Il définit  un filtre passe-bas avec une fréquence de coupure (fc) de
          4500 Hz et une ordre (n) de 100
+         En résumé, augmenter l'ordre du filtre permet d'améliorer la qualité de filtrage en supprimant
+         efficacement les bruits haute fréquence tout en préservant les fréquences importantes pour
+         la musique, mais cela peut augmenter le temps de calcul nécessaire pour filtrer le signal.
 
 
 ## Conclusion
